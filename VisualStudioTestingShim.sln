@@ -5,6 +5,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualStudioTestingShim", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualStudioTestingShim.MonoTouch", "VisualStudioTestingShim.MonoTouch\VisualStudioTestingShim.MonoTouch.csproj", "{B3E3E94E-0FC8-4665-B5D3-2C849A609FF3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5B277D3F-08FF-4483-8B29-56578D2BE875}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +24,8 @@ Global
 		{B3E3E94E-0FC8-4665-B5D3-2C849A609FF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3E3E94E-0FC8-4665-B5D3-2C849A609FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3E3E94E-0FC8-4665-B5D3-2C849A609FF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = VisualStudioTestingShim\VisualStudioTestingShim.csproj
